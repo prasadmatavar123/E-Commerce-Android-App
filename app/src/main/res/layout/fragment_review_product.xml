@@ -20,7 +20,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:text="Please Rate the products"
+                android:text="Please Rate this Products"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:gravity="center"
