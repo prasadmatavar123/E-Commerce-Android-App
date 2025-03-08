@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#8692f7</color>
+    <color name="priceColor">#BD0A0A</color>
+    <color name="priceOff">#18A05E</color>
+    <color name="statusbar">#3184BC</color>
+    <color name="colorPrimary">#F3594E</color>
+
+</resources>

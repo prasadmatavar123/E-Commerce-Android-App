@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/wishImg"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/shoes" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/wishText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ARETTO Expanding Kids Shoes"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/wishText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="S size , Blue"
+                    android:textSize="14sp" />
+
+                <RatingBar
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_constraintLeft_creator="1"
+                    tools:layout_constraintRight_creator="1"
+                    tools:layout_constraintTop_creator="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/wishText3"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="1200 ₹"
+                    android:drawableRight="@drawable/favorite_24"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

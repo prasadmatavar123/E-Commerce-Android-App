@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">E-Commerce</string>
+    <string name="open_drawer">Opne Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis laoreet euismod. Interdum et malesuada</string>
+    <string name="Product_Details_1">Apple MackBook Air Core i5 5th gen - (8 GB / 128 GB SSD / Mac OS Sierra)</string>
+    <string name="priceOFF">30% OFF</string>
+    <string name="description_deatils">The Apple MacBook offers a stunning 13" Retina display, M2 chip, 16GB RAM, 512GB SSD, all-day 20-hour battery life, and ultra-sleek, lightweight design.</string>
+    <string name="profile">Profile</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

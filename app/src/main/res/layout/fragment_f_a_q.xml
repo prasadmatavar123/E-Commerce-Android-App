@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.FAQFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="wrap_content">
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          app:cardCornerRadius="10dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_height="400dp">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:orientation="vertical"
+             android:layout_marginTop="15dp"
+             android:layout_marginLeft="8dp"
+             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:drawableRight="@drawable/keyboard_arrow_down_24"
+                android:id="@+id/faqshow1"
+                android:text="Shipping Address"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/faqhide1"
+                android:text="Add your shiping address"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#F0545054"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:drawableRight="@drawable/keyboard_arrow_down_24"
+                android:id="@+id/faqshow2"
+                android:text="Shipping Address"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/faqhide2"
+                android:text="Add your shiping address"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#F0545054"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:drawableRight="@drawable/keyboard_arrow_down_24"
+                android:id="@+id/faqshow3"
+                android:text="Shipping Address"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/faqhide3"
+                android:text="Add your shiping address"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#F0545054"/>
+
+         </LinearLayout>
+
+
+
+
+      </androidx.cardview.widget.CardView>
+
+
+   </LinearLayout>
+</ScrollView>

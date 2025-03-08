@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/alllatestImg"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/category_img" />
+
+            <TextView
+                android:id="@+id/alllatestText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Apple MackBook Air"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/alllatestText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:text="120,00  10% OFF"
+                android:textColor="#BD0A0A"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/strike"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:text="120,00  10% OFF"
+                android:textColor="#BD0A0A"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/DescriptionDetails"
+                android:text="Description"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+<!--        For send data visibility gone-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
